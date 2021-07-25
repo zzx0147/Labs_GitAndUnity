@@ -5,7 +5,6 @@ using StarterAssets;
 public class UpDownRoundTripPlatform : MonoBehaviour
 {
     private Transform m_Transform = null;
-    private ThirdPersonController m_TPCRef = null;
 
     [Tooltip("왕복하는데 걸리는 시간, 단위는 초, 10이면 갔다가 돌아오는데 걸리는 시간이 10초")]
     [SerializeField]
