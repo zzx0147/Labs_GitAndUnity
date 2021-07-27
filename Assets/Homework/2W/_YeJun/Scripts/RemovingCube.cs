@@ -37,10 +37,8 @@ public class RemovingCube : MonoBehaviour
 
         yield return new WaitForSeconds(2.0f);
 
+        transform.position = originPos;
+        m_co = null;
     }
 
-    private void OnDrawGizmos()
-    {
-       //Gizmos.DrawSphere
-    }
 }
